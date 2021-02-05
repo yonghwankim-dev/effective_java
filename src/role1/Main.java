@@ -41,7 +41,7 @@ public class Main {
 
 class Car{
 	private int price; // 가격
-	private static final BigInteger ZERO = new BigInteger();
+//	private static final BigInteger ZERO = new BigInteger();
 	
 	// 생성자
 	public Car(int price)
