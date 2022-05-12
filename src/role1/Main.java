@@ -1,6 +1,7 @@
 package role1;
 
 import java.math.BigInteger;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -35,6 +36,8 @@ public class Main {
 		Car SM3 = Car.SM3();		//SM3
 		Car K5 = Car.K5();			//K5
 		
+		Car ganger = Car.of("electric");
+		
 	}
 
 }
@@ -59,6 +62,30 @@ class Car{
 	public static Car K5()
 	{
 		return new Car(3500);
+	}
+
+	// 하위 자료형 객체 반환
+	public static Car of(String energy) {
+		if(energy.equals("eletric")){
+			return new Granger(4600);
+		}
+		if(energy.equals("gasoline")) {
+			return new Twosan(2000);
+		}
+		return null;
+	}
+}
+
+class Granger extends Car{
+
+	public Granger(int price) {
+		super(price);
+	}
+}
+class Twosan extends Car{
+
+	public Twosan(int price) {
+		super(price);
 	}
 }
 
@@ -137,7 +164,13 @@ class map_test{
 	{
 		return new HashMap<K, V>();
 	}
-	
-	
-	
 }
+
+/**
+ * 상속을 하려면 부모 클래스가 public이나 protected 생성자가
+ * 필요함
+ * 생성자 없이 정적 팩토리 메서드만 제공하면 하위 클래스를 만들수 없음
+ */
+//class A extends Collections{
+//	
+//}
