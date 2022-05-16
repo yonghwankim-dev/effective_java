@@ -1,4 +1,4 @@
-package role3;
+package role3.serializable;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -12,12 +12,8 @@ public class Member2 implements Serializable {
 	private String name;
 	private String email;
 	private int age;
-	//phone 속성을 추가
-	private String phone;
-	@Override
-	public String toString() {
-		return "Member2 [name=" + name + ", email=" + email + ", age=" + age + ", phone=" + phone + "]";
-	}
+	private String phone; 	//phone 속성을 추가
+
 	public Member2(String name, String email, int age, String phone) {
 		this.name = name;
 		this.email = email;
@@ -49,7 +45,10 @@ public class Member2 implements Serializable {
 		this.phone = phone;
 	}
 	
-	
+	@Override
+	public String toString() {
+		return "Member2 [name=" + name + ", email=" + email + ", age=" + age + ", phone=" + phone + "]";
+	}	
 	
 	
 }
