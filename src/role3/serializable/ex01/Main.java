@@ -1,4 +1,4 @@
-package role3.serializable;
+package role3.serializable.ex01;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
