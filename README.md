@@ -9,4 +9,8 @@
 7. [\[Java\]\[Effective Java\] item 7. 다 쓴 객체 참조를 해제하라](https://yonghwankim-dev.tistory.com/385)
 8. [\[Java\]\[Effective Java\] item 8. finalizer와 cleaner 사용을 피하라](https://yonghwankim-dev.tistory.com/419)
 9. [\[Java\]\[Effective Java\] item 9. try-finally 보다 try-with-resources를 사용하라](https://yonghwankim-dev.tistory.com/420)
+10. [\[Java\]\[Effective Java\] item 10. equals는 일반 규약을 지켜 재정의하라 (대칭성, 추이성)](https://yonghwankim-dev.tistory.com/421)
+11. [\[Java\]\[Effective Java\] item 10. equals는 일반 규약을 지켜 재정의하라 (일관성)](https://yonghwankim-dev.tistory.com/422)
+
+
 
