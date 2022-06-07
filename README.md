@@ -8,4 +8,5 @@
 6. [\[Java\]\[Effective Java\] item 6. 불필요한 객체 생성을 피하라](https://yonghwankim-dev.tistory.com/381?category=1024716)
 7. [\[Java\]\[Effective Java\] item 7. 다 쓴 객체 참조를 해제하라](https://yonghwankim-dev.tistory.com/385)
 8. [\[Java\]\[Effective Java\] item 8. finalizer와 cleaner 사용을 피하라](https://yonghwankim-dev.tistory.com/419)
+9. [\[Java\]\[Effective Java\] item 9. try-finally 보다 try-with-resources를 사용하라](https://yonghwankim-dev.tistory.com/420)
 
