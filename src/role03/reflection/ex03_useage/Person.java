@@ -3,7 +3,7 @@ package role03.reflection.ex03_useage;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-public class Person {
+class Person {
 	private String name;
 	private int age;
 	
@@ -29,17 +29,17 @@ public class Person {
 	}
 	
 	public static void main(String[] args) throws NoSuchMethodException, SecurityException, IllegalAccessException, IllegalArgumentException, InvocationTargetException {
-		Object obj = new Person("±è¿ëÈ¯", 20); // Object Å¬·¡½º´Â Person Å¬·¡½ºÀÇ Á¶»ó Å¬·¡½º¿©¼­
-											 // obj ÂüÁ¶º¯¼ö´Â Person ÀÎ½ºÅÏ½º¸¦ °¡¸®Å³ ¼ö ÀÖÀ½ (´ÙÇü¼º)
-//		obj.getName(); // obj ÀÎ½ºÅÏ½º´Â Object Å¸ÀÔÀÌ±â ¶§¹®¿¡ 
-					   // Object Å¬·¡½º¿¡ Á¸ÀçÇÏ´Â ¸â¹ö(ÇÊµå¸â¹ö, ¸Þ¼­µå)¸¸À» ÂüÁ¶ÇÒ ¼ö ÀÖÀ½
+		Object obj = new Person("ï¿½ï¿½ï¿½È¯", 20); // Object Å¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Person Å¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Å¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+											 // obj ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Person ï¿½Î½ï¿½ï¿½Ï½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Å³ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ (ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)
+//		obj.getName(); // obj ï¿½Î½ï¿½ï¿½Ï½ï¿½ï¿½ï¿½ Object Å¸ï¿½ï¿½ï¿½Ì±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 
+					   // Object Å¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½ ï¿½ï¿½ï¿½(ï¿½Êµï¿½ï¿½ï¿½, ï¿½Þ¼ï¿½ï¿½ï¿½)ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		
 		Class<Person> person = Person.class;
 		Method getName = person.getMethod("getName");
 		
 		// Method.invoke(Object obj, Object... args)
-		// Method.invoke(¸Þ¼­µå¸¦ ½ÇÇà½ÃÅ³ ÀÎ½ºÅÏ½º, ÇØ´ç ¸Þ¼­µå¿¡ ³Ñ±æ ÀÎÀÚ)
+		// Method.invoke(ï¿½Þ¼ï¿½ï¿½å¸¦ ï¿½ï¿½ï¿½ï¿½ï¿½Å³ ï¿½Î½ï¿½ï¿½Ï½ï¿½, ï¿½Ø´ï¿½ ï¿½Þ¼ï¿½ï¿½å¿¡ ï¿½Ñ±ï¿½ ï¿½ï¿½ï¿½ï¿½)
 		String name = (String) getName.invoke(obj, null);
-		System.out.println(name);	// Expected Output : ±è¿ëÈ¯
+		System.out.println(name);	// Expected Output : ï¿½ï¿½ï¿½È¯
 	}
 }

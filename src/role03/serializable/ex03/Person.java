@@ -2,7 +2,7 @@ package role03.serializable.ex03;
 
 import java.io.Serializable;
 
-public class Person implements Serializable{
+class Person implements Serializable{
 	private int age;
 	private String name;
 	private Address country;	// Address 클래스 또한 Serializable 해야함

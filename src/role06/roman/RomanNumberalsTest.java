@@ -1,12 +1,15 @@
 package role06.roman;
 
-import static org.junit.jupiter.api.Assertions.*;
+
+
+import org.junit.Test;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-import org.junit.jupiter.api.Test;
+import static org.junit.Assert.assertTrue;
+
 
 class RomanNumberalsTest {
 	int numReps = 1000000;

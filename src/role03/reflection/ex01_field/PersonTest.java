@@ -1,15 +1,18 @@
 package role03.reflection.ex01_field;
 
-import static org.junit.jupiter.api.Assertions.*;
+
+
+import org.junit.Test;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import org.junit.jupiter.api.Test;
+import static org.junit.Assert.assertTrue;
 
-class PersonTest {
+
+public class PersonTest {
 
 	private static List<String> getFieldNames(Field[] fields){
 		List<String> fieldNames = new ArrayList<String>();

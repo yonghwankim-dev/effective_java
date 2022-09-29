@@ -1,7 +1,5 @@
 package role10.inheritance;
 
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import role10.Color;
 import role10.Point;

@@ -2,7 +2,7 @@ package role03.serializable.ex02;
 
 import java.io.Serializable;
 
-public class Person implements Serializable{
+class Person implements Serializable{
     private static final long serialVersionUID = 1L;
     public static String country = "ITALY";
     private int age;

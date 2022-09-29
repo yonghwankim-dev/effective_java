@@ -1,5 +1,7 @@
 package role09;
 
+import org.junit.Test;
+
 import static org.junit.Assert.assertEquals;
 
 import java.io.BufferedReader;
@@ -10,7 +12,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
 
-import org.junit.jupiter.api.Test;
+
 
 public class TryWithResourceTest {
 	private static final int BUFFER_SIZE = 512;

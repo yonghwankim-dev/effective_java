@@ -1,13 +1,16 @@
 package role03.serializable.ex03;
 
-import static org.junit.jupiter.api.Assertions.*;
+
+
+import org.junit.Test;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.NotSerializableException;
 import java.io.ObjectOutputStream;
 
-import org.junit.jupiter.api.Test;
+import static org.junit.Assert.assertThrows;
+
 
 class PersonTest {
 

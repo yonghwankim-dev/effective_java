@@ -1,9 +1,10 @@
 package role02.telescopingconstructor;
 
 import org.junit.Assert;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-class NutritionFactsTest {
+
+public class NutritionFactsTest {
 
 	@Test
 	void telescopingConstructorPatternTest() {

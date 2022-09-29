@@ -1,10 +1,12 @@
 package role03.staticfactory;
 
-import static org.junit.jupiter.api.Assertions.*;
+
+
+import org.junit.Test;
 
 import java.util.function.Supplier;
 
-import org.junit.jupiter.api.Test;
+
 
 class ElvisTest {
 

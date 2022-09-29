@@ -1,9 +1,10 @@
 package role10.composition;
 
-import static org.junit.jupiter.api.Assertions.*;
 
-import org.junit.jupiter.api.Test;
 
+
+
+import org.junit.Test;
 import role10.Color;
 import role10.Point;
 

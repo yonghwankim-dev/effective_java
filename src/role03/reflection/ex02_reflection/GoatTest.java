@@ -1,6 +1,8 @@
 package role03.reflection.ex02_reflection;
 
-import static org.junit.jupiter.api.Assertions.*;
+
+
+import org.junit.Test;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
@@ -11,9 +13,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import org.junit.jupiter.api.Test;
+import static org.junit.Assert.*;
 
-class GoatTest {
+
+public class GoatTest {
  
 	/**
 	 * title : Field 배열의 원소들을 리스트로 이관시켜 반환함 
