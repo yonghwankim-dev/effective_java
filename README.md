@@ -16,6 +16,8 @@
 14. [\[Java\]\[Effective Java\] item 14. Comparable을 구현할지 고려하라](https://yonghwankim-dev.tistory.com/475)
 15. [\[Java\]\[Effective Java\] item 16. public 클래스에서는 public 필드가 아닌 접근자 메서드를 사용하라](https://yonghwankim-dev.tistory.com/523)
 16. [\[Java\]\[Effective Java\] item 17. 변경 가능성을 최소화하라](https://yonghwankim-dev.tistory.com/527)
+17. [\[Java\]\[Effective Java\] item 18. 상속보다는 컴포지션을 사용하라](https://yonghwankim-dev.tistory.com/528)
+
 
 
 
